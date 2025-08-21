@@ -32,55 +32,20 @@ The problems solved include:
 
 ## 💡 Examples
 
-# --------------------------------------
-# ALPHABET SOUP PROBLEM
-# --------------------------------------
+### Alphabet Soup Problem
+- `alphabet_soup("hello") ➞ ehllo`
+- `alphabet_soup("hacker") ➞ acehkr`
 
-# Function that arranges letters of a word in alphabetical order
-def alphabet_soup(word):
-    result = ''.join(sorted(word))  # sort letters, join them back
-    return result
+---
 
-# Examples
-print('alphabet_soup("hello") ➞', alphabet_soup("hello"))
-print('alphabet_soup("hacker") ➞', alphabet_soup("hacker"))
+### Emotify Problem
+- `emotify("Make me smile") ➞ Make me :)`
+- `emotify("I am mad") ➞ I am >:(`
 
+---
 
-# --------------------------------------
-# EMOTIFY PROBLEM
-# --------------------------------------
-
-# Function that replaces specific words with emoticons
-def emotify(sentence):
-    # Dictionary of words mapped to emoticons
-    emoticons = {
-        "smile": ":)",
-        "grin": ":D",
-        "sad": ":(",
-        "mad": ">:("
-    }
-    # Replace each word with its corresponding emoticon
-    for word, symbol in emoticons.items():
-        sentence = sentence.replace(word, symbol)
-    return sentence
-
-# Examples
-print('emotify("Make me smile") ➞', emotify("Make me smile"))
-print('emotify("I am mad") ➞', emotify("I am mad"))
-print('emotify("She has a grin") ➞', emotify("She has a grin"))
-print('emotify("He looks sad") ➞', emotify("He looks sad"))
-
-
-# --------------------------------------
-# LIST UNPACKING PROBLEM
-# --------------------------------------
-
-# Unpack the list into first, middle, and last
-writeyourcodehere = [1, 2, 3, 4, 5, 6]
-first, *middle, last = writeyourcodehere
-
-# Print results
-print("First:", first)
-print("Middle:", middle)
-print("Last:", last)
-
+### List Unpacking
+Input list: `[1, 2, 3, 4, 5, 6]`  
+- First: `1`  
+- Middle: `[2, 3, 4, 5]`  
+- Last: `6`
