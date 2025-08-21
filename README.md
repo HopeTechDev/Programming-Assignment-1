@@ -24,7 +24,7 @@ The problems solved include:
 ---
 
 ## ▶️ How to Run
-1. Install [Jupyter Notebook](https://jupyter.org/install) or use Google Colab.  
+1. Install [Jupyter Notebook](https://jupyter.org/install).
 2. Open the file **`SAEZ_PA1.ipynb`**.   
 3. The outputs will appear directly under each code cell.  
 
