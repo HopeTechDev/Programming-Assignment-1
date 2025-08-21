@@ -1,4 +1,4 @@
-# Programming Assignment 1 – Python Basics
+# Programming Assignment 1 – Python Essentials
 
 **Author:** SAEZ, Eljenzal Hoper U.  
 **Course:** Advanced Computer Programming and Algorithms / ECE2112
