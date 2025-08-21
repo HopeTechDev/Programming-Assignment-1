@@ -1,8 +1,7 @@
-# Programming-Assignment-1
 # Programming Assignment 1 – Python Basics
 
 **Author:** SAEZ, Eljenzal Hoper U.  
-**Course:** [Insert your course code / subject if required]
+**Course:** Advanced Computer Programming and Algorithms / ECE2112
 
 ---
 
@@ -33,11 +32,55 @@ The problems solved include:
 
 ## 💡 Examples
 
-### Alphabet Soup Problem
-```python
-print(alphabet_soup("hello"))
-print(alphabet_soup("hacker"))
+# --------------------------------------
+# ALPHABET SOUP PROBLEM
+# --------------------------------------
 
-ehllo
-acehkr
+# Function that arranges letters of a word in alphabetical order
+def alphabet_soup(word):
+    result = ''.join(sorted(word))  # sort letters, join them back
+    return result
+
+# Examples
+print('alphabet_soup("hello") ➞', alphabet_soup("hello"))
+print('alphabet_soup("hacker") ➞', alphabet_soup("hacker"))
+
+
+# --------------------------------------
+# EMOTIFY PROBLEM
+# --------------------------------------
+
+# Function that replaces specific words with emoticons
+def emotify(sentence):
+    # Dictionary of words mapped to emoticons
+    emoticons = {
+        "smile": ":)",
+        "grin": ":D",
+        "sad": ":(",
+        "mad": ">:("
+    }
+    # Replace each word with its corresponding emoticon
+    for word, symbol in emoticons.items():
+        sentence = sentence.replace(word, symbol)
+    return sentence
+
+# Examples
+print('emotify("Make me smile") ➞', emotify("Make me smile"))
+print('emotify("I am mad") ➞', emotify("I am mad"))
+print('emotify("She has a grin") ➞', emotify("She has a grin"))
+print('emotify("He looks sad") ➞', emotify("He looks sad"))
+
+
+# --------------------------------------
+# LIST UNPACKING PROBLEM
+# --------------------------------------
+
+# Unpack the list into first, middle, and last
+writeyourcodehere = [1, 2, 3, 4, 5, 6]
+first, *middle, last = writeyourcodehere
+
+# Print results
+print("First:", first)
+print("Middle:", middle)
+print("Last:", last)
 
