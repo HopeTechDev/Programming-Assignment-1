@@ -57,7 +57,7 @@ def emotify(sentence):  # define the function
     emoticons = {  # dictionary to map words into emoticons
         'smile': ':)',
         'grin': ':D',
-        'sad': ':(((',
+        'sad': ':((',
         'mad': '>:(('
     }
     
