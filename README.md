@@ -30,7 +30,7 @@ The problems solved include:
 
 ---
 
-## 💡 Examples
+## 💡 Examples w/ Explanation
 
 ### 01 🔠 Alphabet Soup Problem  
 
@@ -68,7 +68,7 @@ def emotify(sentence):  # define the function
 ```
 
 - A function named `emotify` that takes one string `sentence`.  
-- `emoticons` dictionary maps words (`smile`, `grin`, `sad`, `mad`) to symbols (`:)`, `:D`, `:(((`, `>:((`).  
+- `emoticons` dictionary maps words (`smile`, `grin`, `sad`, `mad`) to symbols (`:)`, `:D`, `:((`, `>:((`).  
 - Loops through the dictionary:  
   - `sentence.replace(word, emoticon)` replaces the word with its emoticon.  
 - Returns the updated sentence.  
@@ -105,5 +105,5 @@ last: 6
 ```
 
 ---
-*"Your future self will thank you for learning today."*
+*- 🌱 "Your future self will thank you for learning today."*
 ---
