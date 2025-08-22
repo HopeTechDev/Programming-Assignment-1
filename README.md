@@ -74,7 +74,7 @@ def emotify(sentence):  # define the function
 - Returns the updated sentence.  
 - Output:  
 ```python
-emotify("I love to grin")  # output: 'I am :((( but I :D'
+emotify("I love to grin")  # output: 'I love to :D'
 ```
 
 ---
