@@ -44,7 +44,7 @@ def alphabet_soup(word):  # define the function
 - `"".join(sorted(word))` → joins the sorted characters back into a single string.  
 - Output:  
 ```python
-alphabet_soup("python")  # output: 'hnopty'
+alphabet_soup("hello")  # output: 'ehllo'
 ```
 
 ---
@@ -74,7 +74,7 @@ def emotify(sentence):  # define the function
 - Returns the updated sentence.  
 - Output:  
 ```python
-emotify("I am sad but I grin")  # output: 'I am :((( but I :D'
+emotify("I love to grin")  # output: 'I am :((( but I :D'
 ```
 
 ---
@@ -86,9 +86,9 @@ writeyourcodehere = [1, 2, 3, 4, 5, 6]  # sample list
 
 first, *middle, last = writeyourcodehere  # unpack list
 
-print("first:", first)
-print("middle:", middle)
-print("last:", last)
+print("First:", first)
+print("Middle:", middle)
+print("Last:", last)
 ```
 
 - Creates a list `[1, 2, 3, 4, 5, 6]`.  
@@ -104,4 +104,6 @@ middle: [2, 3, 4, 5]
 last: 6
 ```
 
+---
+*"Your future self will thank you for learning today."*
 ---
