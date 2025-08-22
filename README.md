@@ -105,5 +105,6 @@ last: 6
 ```
 
 ---
-*- 🌱 "Your future self will thank you for learning today."*
+##### *- 🌱 "Your future self will thank you for learning today."*
+
 ---
