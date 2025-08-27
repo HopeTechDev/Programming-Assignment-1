@@ -105,6 +105,25 @@ last: 6
 ```
 
 ---
+
 ##### *- 🌱 "Your future self will thank you for learning today."*
 
 ---
+
+## 📝 Version History
+
+- **v1.0** – Initial release of Programming Assignment 1 in Jupyter notebook  
+  - Added solutions for Alphabet Soup, Emotify, and List Unpacking problems  
+  - Basic function implementations included  
+
+- **v1.1** – Minor improvements  
+  - Added inline comments for better code readability  
+  - Fixed formatting issues in output examples  
+
+- **v1.2** – Enhanced documentation  
+  - Expanded README with detailed explanations for each problem  
+
+- **v1.3** – Final polish  
+  - Improved consistency in code examples and outputs
+ 
+  ---
