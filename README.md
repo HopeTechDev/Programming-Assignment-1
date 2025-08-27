@@ -110,6 +110,8 @@ last: 6
 
 ---
 
+
+
 ### 📝 Version History
 
 - **v1.0** – Initial release of Programming Assignment 1 in Jupyter notebook  
@@ -126,4 +128,4 @@ last: 6
 - **v1.3** – Final polish  
   - Improved consistency in code examples and outputs
  
-  ---
+---
