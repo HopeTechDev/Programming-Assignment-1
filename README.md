@@ -112,7 +112,7 @@ last: 6
 
 
 
-### 📝 Version History
+### 📝 Commitments
 
 - **v1.0** – Initial release of Programming Assignment 1 in Jupyter notebook  
   - Added solutions for Alphabet Soup, Emotify, and List Unpacking problems  
